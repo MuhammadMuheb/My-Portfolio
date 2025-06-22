@@ -28,7 +28,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id="home" className="hero-bg min-h-screen flex items-center pt-16" data-aos="fade-down">
+    <section id="home" className="hero-bg min-h-screen flex items-center pt-16">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
         
         {/* Image Section */}
@@ -53,40 +53,40 @@ const Hero = () => {
           </h2>
           <p
             ref={typingRef}
-            className="text-lg md:text-xl text-gray-600 mb-8 min-h-[3rem]"
+            className=" text-lg md:text-xl text-gray-600 mb-8 min-h-[rem]"
           >
-            {/* Typewriter effect text will appear here */}
+            {/* Typewriter effect will be shown here */}
           </p>
 
           {/* Buttons */}
-          <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center md:justify-start">
-            <a
-              href="#services"
-              className="bg-blue-600 text-white px-8 py-3 rounded-full font-medium transition-all duration-300 hover:bg-blue-700"
-            >
-              View My Work
-            </a>
-            <a
-              href="#contact"
-              className="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-full font-medium transition-all duration-300 hover:bg-blue-600 hover:text-white"
-            >
-              Contact Me
-            </a>
-          </div>
+<div className="flex flex-col sm:flex-row gap-3 w-full justify-center md:justify-start px-2">
+  <a
+    href="#services"
+    className="w-full sm:w-auto bg-blue-600 text-white px-8 py-4 rounded-full font-medium transition-all duration-300 hover:bg-blue-700 text-center "
+  >
+    View My Work
+  </a>
+  <a
+    href="#contact"
+    className="w-full sm:w-auto border border-blue-600 text-blue-600 px-8 py-4 rounded-full font-medium transition-all duration-300 hover:bg-blue-600 hover:text-white text-center"
+  >
+    Contact Me
+  </a>
+</div>
 
           {/* Social Icons */}
           <div className="flex mt-8 space-x-4 justify-center md:justify-start">
-            <a href="#" className="w-10 h-10 flex items-center justify-center text-gray-600 hover:text-blue-600 transition duration-300">
-              <Linkedin size={20} />
+            <a href="#" className="w-10 h-10 flex items-center justify-center text-black text-gray-600 hover:text-blue-600 transition duration-300">
+              <Linkedin size={25} />
             </a>
-            <a href="#" className="w-10 h-10 flex items-center justify-center text-gray-600 hover:text-blue-600 transition duration-300">
-              <Github size={20} />
+            <a href="#" className="w-10 h-10 flex items-center justify-center text-black text-gray-600 hover:text-blue-600 transition duration-300">
+              <Github size={25} />
             </a>
-            <a href="#" className="w-10 h-10 flex items-center justify-center text-gray-600 hover:text-blue-600 transition duration-300">
-              <Twitter size={20} />
+            <a href="#" className="w-10 h-10 flex items-center justify-center text-black text-gray-600 hover:text-blue-600 transition duration-300">
+              <Twitter size={25} />
             </a>
-            <a href="#" className="w-10 h-10 flex items-center justify-center text-gray-600 hover:text-blue-600 transition duration-300">
-              <Instagram size={20} />
+            <a href="#" className="w-10 h-10 flex items-center justify-center text-black text-gray-600 hover:text-blue-600 transition duration-300">
+              <Instagram size={25} />
             </a>
           </div>
         </div>

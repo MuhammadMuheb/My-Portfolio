@@ -1,4 +1,4 @@
- :where([class^="ri-"])::before { content: "\f3c2"; }
+:where([class^="ri-"])::before { content: "\f3c2"; }
       html {
        scroll-behavior: smooth;
       }

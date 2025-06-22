@@ -4,19 +4,17 @@ const Service = () => {
   return (
     <section id="services" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
-        <div className="mb-12" data-aos="fade-up" data-aos-offset="200">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-            My Services
-          </h2>
-          <p className="text-gray-600 text-center max-w-2xl mx-auto mb-16">
-            I offer comprehensive web development solutions tailored to meet your
-            specific needs and goals.
-          </p>
-        </div>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
+          My Services
+        </h2>
+        <p className="text-gray-600 text-center max-w-2xl mx-auto mb-16">
+          I offer comprehensive web development solutions tailored to meet your
+          specific needs and goals.
+        </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Responsive Web Design */}
-          <div className="service-card bg-white p-8 rounded-lg shadow-md" data-aos="fade-right" data-aos-offset="200">
+          <div className="service-card bg-white p-8 rounded-lg shadow-md">
             <div
               className="w-16 h-16 flex items-center justify-center bg-blue-50 rounded-full mb-6"
             >
@@ -33,7 +31,7 @@ const Service = () => {
           </div>
 
           {/* Front-End Development */}
-          <div className="service-card bg-white p-8 rounded-lg shadow-md" data-aos="fade-left" data-aos-offset="200">
+          <div className=" service-card bg-white p-8 rounded-lg shadow-md">
             <div className="w-16 h-16 flex items-center justify-center bg-blue-50 rounded-full mb-6">
               <i className="ri-code-s-slash-line ri-xl text-blue-600"></i>
             </div>
@@ -48,7 +46,7 @@ const Service = () => {
           </div>
 
           {/* UI/UX Design */}
-          <div className="service-card bg-white p-8 rounded-lg shadow-md" data-aos="fade-right" data-aos-offset="200">
+          <div className="service-card bg-white p-8 rounded-lg shadow-md">
             <div className="w-16 h-16 flex items-center justify-center bg-blue-50 rounded-full mb-6">
               <i className="ri-layout-4-line ri-xl text-blue-600"></i>
             </div>
@@ -64,7 +62,7 @@ const Service = () => {
           </div>
 
           {/* Website Optimization */}
-          <div className="service-card bg-white p-8 rounded-lg shadow-md" data-aos="fade-left" data-aos-offset="200">
+          <div className="service-card bg-white p-8 rounded-lg shadow-md">
             <div className="w-16 h-16 flex items-center justify-center bg-blue-50 rounded-full mb-6">
               <i className="ri-speed-line ri-xl text-blue-600"></i>
             </div>
