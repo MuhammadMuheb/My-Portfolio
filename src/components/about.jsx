@@ -4,12 +4,14 @@ const About = () => {
   return (
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
-          About Me
-        </h2>
+        <div data-aos="fade-up" data-aos-offset="200">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+            About Me
+          </h2>
+        </div>
         <div className="flex flex-col md:flex-row gap-12">
           {/* Journey Section */}
-          <div className="md:w-1/2">
+          <div className="md:w-1/2" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <h3 className="text-2xl font-semibold mb-6 text-gray-800">
               My Journey
             </h3>
@@ -25,7 +27,7 @@ const About = () => {
           </div>
 
           {/* Skills & Education */}
-          <div className="md:w-1/2">
+          <div className="md:w-1/2" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
             <h3 className="text-2xl font-semibold mb-6 text-gray-800">
               Technical Skills
             </h3>
